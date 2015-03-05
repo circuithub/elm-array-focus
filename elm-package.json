@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "summary": "Focus helpers for Array",
+    "repository": "https://github.com/circuithub/elm-array-focus.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "Array.Focus"
+    ],
+    "dependencies": {
+        "elm-lang/core": "1.1.0 <= v < 2.0.0",
+        "evancz/focus": "1.0.0 <= v < 2.0.0"
+    }
+}
