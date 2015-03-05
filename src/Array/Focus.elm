@@ -26,7 +26,7 @@ at n =
 
 {-| Update the element at the given index
 
-  updateAt 1 (\x -> x * x) (Array.fromList [1,2,3]) == (Array.fromList [1,4,3])
+    updateAt 1 (\x -> x * x) (Array.fromList [1,2,3]) == (Array.fromList [1,4,3])
 -}
 updateAt : Int -> (a -> a) -> Array a -> Array a
 updateAt n f = update (at n) (Maybe.map f)
