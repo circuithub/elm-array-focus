@@ -7,9 +7,8 @@ module Array.Focus where
 -}
 
 import Maybe
-import Array
-import Array (Array)
-import Focus (..)
+import Array exposing (Array)
+import Focus exposing (..)
 
 {-| Create a focus on the element of the array at the given index
 
